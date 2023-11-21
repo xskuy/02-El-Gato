@@ -1,7 +1,7 @@
 import './App.css'
 import { useState } from 'react'
 import confetti from 'canvas-confetti'
-//----->
+// ----->
 import { Square } from './components/Square'
 import { TURNS } from './constants'
 import { checkWinner, checkEndGame } from './logic/board'
@@ -9,26 +9,18 @@ import { WinnerModal } from './components/WinnerModal'
 import { GatoGame } from './components/GatoGame'
 import { saveGameToStorage, resetGameStorage } from './login'
 
-
-
 function App() {
   const [board, setBoard] = useState(() => {
     const boardFromStore = window.localStorage.getItem('board')
     return boardFromStore ? JSON.parse(boardFromStore) : Array(9).fill(null)
   })
 
-
-
   const [turn, setTurn] = useState(() => {
     const turnFromStorage = window.localStorage.getItem('turn')
     return turnFromStorage ?? TURNS.X
   })
 
-
-
-
   const [winner, setWinner] = useState(null)
-
 
   const updateBoard = (index) => {
     // Aqui le decimos que si hay algun objeto dentro no haga nada
@@ -37,10 +29,10 @@ function App() {
     const newBoard = [...board]
     newBoard[index] = turn // le decimos que newBoard es [index] que se lo pasamos como parametro
     setBoard(newBoard)
-    //cambiar el turtno
+    // cambiar el turtno
     const newTurn = turn === TURNS.X ? TURNS.O : TURNS.X
     setTurn(newTurn)
-    //guardar partoda
+    // guardar partoda
     saveGameToStorage({
       board: newBoard,
       turn: newTurn
@@ -62,7 +54,6 @@ function App() {
     resetGameStorage()
   }
 
-
   return (
     <main className='board'>
       <h1>El Gato</h1>
@@ -82,7 +73,5 @@ function App() {
     </main >
   )
 }
-
-
 
 export default App

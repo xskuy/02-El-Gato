@@ -1,8 +1,26 @@
-# React + Vite
+# 🎮 Tic-Tac-Toe con React + Vite 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un juego de Tic-Tac-Toe (o tres en raya) construido con React y Vite. 
 
-Currently, two official plugins are available:
+## 🎲 Cómo jugar
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El juego es para dos jugadores, que se turnan para marcar los espacios en una cuadrícula de 3x3. El jugador que consigue colocar tres de sus marcas en una línea horizontal, vertical o diagonal gana el juego.
+
+## 🛠️ Configuración del proyecto
+
+Este proyecto utiliza Vite para un entorno de desarrollo rápido con Hot Module Replacement (HMR) y algunas reglas de ESLint.
+
+Actualmente, se utilizan dos plugins oficiales:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) usa [Babel](https://babeljs.io/) para Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) usa [SWC](https://swc.rs/) para Fast Refresh
+
+## 🚀 Cómo ejecutar el proyecto
+
+// Aquí puedes agregar las instrucciones para ejecutar tu proyecto, por ejemplo:
+
+1. Clona el repositorio
+2. Instala las dependencias con `npm install`
+3. Ejecuta el proyecto con `npm run start`
+
+¡Disfruta del juego! 🎉
