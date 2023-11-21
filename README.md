@@ -1,7 +1,7 @@
 <<<<<<< HEAD
-# 🎮 Tic-Tac-Toe con React + Vite 🚀
+# 🎮 El-Gato con React + Vite 🚀
 
-Este proyecto es un juego de Tic-Tac-Toe (o tres en raya) construido con React y Vite. 
+Este proyecto es un juego de El Gato (o tres en raya) construido con React y Vite. 
 
 ## 🎲 Cómo jugar
 
