@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # 🎮 Tic-Tac-Toe con React + Vite 🚀
 
 Este proyecto es un juego de Tic-Tac-Toe (o tres en raya) construido con React y Vite. 
 
 ## 🎲 Cómo jugar
+=======
+# El Gato ⚪️❌
+
+Proyecto hecho con React y Vite 
+
+
+>>>>>>> 0036d509aaa52e01b7d7d3d74d11f4e6d755e626
 
 El juego es para dos jugadores, que se turnan para marcar los espacios en una cuadrícula de 3x3. El jugador que consigue colocar tres de sus marcas en una línea horizontal, vertical o diagonal gana el juego.
 
